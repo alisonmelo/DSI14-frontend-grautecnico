@@ -20,6 +20,15 @@ export const alunos = [
     github: "#",
     linkedin: "#",
     portfolio: "#"
+  },{
+    id: 3,
+    nome: "Pedro mela cueca",
+    stack: "back-end Dev UI/UX",
+    bio: "Soltar um pum e mela cueca!",
+    foto: "https://media.istockphoto.com/id/526151629/pt/foto/cool-av%C3%B3-mostrando-sua-f-finger.jpg?s=612x612&w=is&k=20&c=XV20bGcuhB1n_4jdOJOoAli10LMjtHYw72if2In4nVY=", // Foto fake bonita
+    github: "#",
+    linkedin: "#",
+    portfolio: "#"
   }
   // Crie o seu depois daqui...
 ];
