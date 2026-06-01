@@ -20,6 +20,16 @@ export const alunos = [
     github: "#",
     linkedin: "#",
     portfolio: "#"
-  }
+  },
   // Crie o seu depois daqui...
+  {
+    id: 3,
+    nome: "Robert(Aluno)",
+    stack: "Full Stack / CyberCode",
+    bio: "Estudando para ser o melhor do purple team",
+    foto: "https://br.pinterest.com/pin/1089237859964253727/", // Foto fake bonita
+    github: "github.com/robertatila",
+    linkedin: "https://linkedin.com/in/robertatila",
+    portfolio: "https://Robert.dev"
+  }
 ];
