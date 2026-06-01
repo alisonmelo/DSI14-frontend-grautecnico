@@ -1,52 +1,95 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* 1. RESET GLOBAL (Mata as bordas brancas) */
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
 }
 
-.app-container{
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #020617; /* Fundo escuro preenchendo 100% */
+  overflow-x: hidden; /* Impede a tela de ir para os lados no celular */
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* 2. GRID BASE (Layout para Celular) */
+.app-container {
   display: grid;
-  height: 100vh;
-  /* definindo as areas do site */
+  min-height: 100vh;
+  width: 100%;
+  /* No celular, é uma coluna só (Header em cima, Main embaixo) */
   grid-template-areas: 
-  "sidebar header"
-  "sidebar main"
-  "sidebar aside";
-  grid-template-columns:260px 1fr;
-  grid-template-rows:80px 1fr;
-  background-color: #020617;
-  color: white;
+    "header"
+    "main";
+  grid-template-columns: 1fr; 
+  grid-template-rows: 80px 1fr;
+}
+/* --- EFEITO HOVER NOS CARDS --- */
+.card {
+  transition: all 0.3s ease; /* Deixa o movimento suave */
 }
 
-.header-area{grid-area:header}
-.sidebar-area{
-    color: white;
-
-  grid-area:sidebar; 
-  background-color:#4d4dff ;}
-.main-area{
-    color: white;
-
-  grid-area: main;
-  padding: 20px;
-  overflow-y: auto;
+.card:hover {
+  transform: translateY(-8px); /* Levanta o card um pouquinho */
+  box-shadow: 0 12px 25px rgba(56, 189, 248, 0.15); /* Sombra ciano */
+  border-color: #38bdf8 !important; /* Acende a borda */
 }
-.aside-area{ 
-    color: white;
+/* Posicionamento Padrão */
+.header-area { grid-area: header; width: 100%; }
+.main-area { grid-area: main; padding: 20px; overflow-y: auto; width: 100%; }
 
-  display: none;
-}
+/* Esconde as barras laterais no celular */
+.sidebar-area, .aside-area { display: none; } 
 
-@media (min-width:1024px){
-  .app-container{
+/* 3. RESPONSIVO PARA TABLET (Aparece o Menu Lateral) */
+@media (min-width: 768px) {
+  .app-container {
     grid-template-areas: 
-    "sidebar header header"
-    "sidebar main aside"
-    ;
-    grid-template-columns: 260px 1fr 300px ;
+      "sidebar header"
+      "sidebar main";
+    grid-template-columns: 260px 1fr; 
   }
-  .aside-area{
-    grid-area: aside; 
-    display: block; 
-    background-color: #4d4dff;}
+  .sidebar-area { grid-area: sidebar; display: block; }
+}
+
+/* 4. RESPONSIVO PARA PC (Aparece o Widget de Status) */
+@media (min-width: 1024px) {
+  .app-container {
+    grid-template-areas: 
+      "sidebar header header"
+      "sidebar main aside";
+    grid-template-columns: 260px 1fr 300px;
+  }
+  .aside-area { grid-area: aside; display: block; }
+}
+
+/* 5. A GRADE DE ALUNOS CENTRALIZADA */
+.students-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  justify-items: center; /* Centraliza os cards na tela */
+  width: 100%;
+  max-width: 1200px; /* Evita que estique demais em telas de cinema */
+  margin: 0 auto; /* Centraliza o bloco inteiro no meio da área principal */
+}
+
+/* --- ANIMAÇÃO DE PULSO --- */
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+  70% { box-shadow: 0 0 0 6px rgba(34, 197, 94, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+}
+
+.status-online {
+  width: 12px;
+  height: 12px;
+  background-color: #22c55e;
+  border-radius: 50%;
+  border: 2px solid #0f172a;
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  animation: pulse 2s infinite; /* Chama a animação ali de cima */
 }
