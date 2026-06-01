@@ -22,4 +22,14 @@ export const alunos = [
     portfolio: "#"
   }
   // Crie o seu depois daqui...
+  {
+    id: 3,
+    nome: "Thiago Santana",
+    stack: "back-end Dev",
+    bio: "futuro dev java",
+    foto: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=400", // Foto fake bonita
+    github: "#",
+    linkedin: "#",
+    portfolio: "#"
+  }
 ];
