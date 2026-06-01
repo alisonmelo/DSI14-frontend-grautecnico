@@ -12,14 +12,14 @@ export const alunos = [
     portfolio: "https://alisonmelo.dev"
   },
   {
-    id: 2,
-    nome: "Aluno Herói",
+    id: 7,
+    nome: "Jean Carlos",
     stack: "Front-end Dev",
-    bio: "O único que veio na aula e vai virar sênior!",
-    foto: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=400", // Foto fake bonita
-    github: "#",
+    bio: "Não tem bio ainda!",
+    foto: "https://cdna.artstation.com/p/assets/images/images/047/133/434/large/haykel-mhadbi-finn-adventure-time-2.jpg?1646843144", // Foto fake bonita
+    github: "https://github.com/jeancarlos1019",
     linkedin: "#",
-    portfolio: "#"
+    portfolio: "https://github.com/jeancarlos1019"
   }
   // Crie o seu depois daqui...
 ];
