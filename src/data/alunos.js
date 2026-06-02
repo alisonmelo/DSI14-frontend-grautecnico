@@ -45,8 +45,7 @@ export const alunos = [
     portfolio: "#"
   },
   // Crie o seu depois daqui...
-  {
-    id: 5,
+  { id: 5,
     nome: "Robert(Aluno)",
     stack: "Full Stack / CyberCode",
     bio: "Estudando para ser o melhor do purple team",
@@ -54,5 +53,14 @@ export const alunos = [
     github: "github.com/robertatila",
     linkedin: "https://linkedin.com/in/robertatila",
     portfolio: "https://Robert.dev"
+  },{ id: 5,
+    nome: "Franky(Aluno))",
+    stack: "Não / sei",
+    bio: "Tentando aprender",
+    foto:"",
+    github: "",
+    linkedin: "",
+    portfolio: ""
   }
+   
 ];
