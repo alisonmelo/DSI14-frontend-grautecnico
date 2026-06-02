@@ -31,5 +31,17 @@ export const alunos = [
     linkedin: "https://github.com/settings/profile",
     portfolio: "https://github.com/settings/profile"
   }
+,
+  // Crie o seu depois daqui...
+  {
+    id: 3,
+    nome: "Matheus Pontes",
+    stack: "Backend Dev",
+    bio: "O pior entre melhores",
+    foto: "blob:https://web.whatsapp.com/b2873a21-90e1-4df6-87a2-0ba959a8d343", // Foto fake bonita
+    github: "#",
+    linkedin: "#",
+    portfolio: "#"
+  }
   // Crie o seu depois daqui...
 ];
