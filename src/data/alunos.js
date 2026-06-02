@@ -27,7 +27,7 @@ export const alunos = [
     nome: "Robert(Aluno)",
     stack: "Full Stack / CyberCode",
     bio: "Estudando para ser o melhor do purple team",
-    foto: "https://br.pinterest.com/pin/1089237859964253727/", // Foto fake bonita
+    foto: "https://i.pinimg.com/736x/93/88/a6/9388a6238562da0b556a3974b78ef77d.jpg", // Foto fake bonita
     github: "github.com/robertatila",
     linkedin: "https://linkedin.com/in/robertatila",
     portfolio: "https://Robert.dev"
