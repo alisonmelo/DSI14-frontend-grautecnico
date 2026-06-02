@@ -12,6 +12,15 @@ function App() {
         <main className='main-area'>
           <h1>dashboard da turma</h1>
           <p>Aguardando os componentes do alunos</p>
+        <section style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))'
+          gap: '20px'
+        }}>
+          
+          <studentsCard/>
+          
+          </section>
         </main>
         <aside className='aside-area'>
         <h3 style={{padding: '20px'}}>Notificações</h3>
