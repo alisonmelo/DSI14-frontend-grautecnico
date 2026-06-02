@@ -23,7 +23,7 @@ export const alunos = [
   },
   // Crie o seu depois daqui...
   {
-    id: 3,
+    id: 5,
     nome: "Robert(Aluno)",
     stack: "Full Stack / CyberCode",
     bio: "Estudando para ser o melhor do purple team",
