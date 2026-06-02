@@ -22,7 +22,7 @@ export const alunos = [
     portfolio: "#"
   },
   {
-    id: 3,
+    id: 4,
     nome: "Dream Foox",
     stack: "  Back-end Dev",
     bio: "Programador Junior Do ilan maiskI ",
