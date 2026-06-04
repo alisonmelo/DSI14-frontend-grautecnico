@@ -1,4 +1,7 @@
+
 export function StudentCard({ aluno }) {
+
+  const {like,setLike} = userState(0);
   return (
     <div className="card" style={{
       width: '320px',

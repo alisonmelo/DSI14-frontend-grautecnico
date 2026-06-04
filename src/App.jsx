@@ -3,9 +3,11 @@ import { Header } from './components/Header';
 import { Aside } from './components/Aside';
 import { StudentCard } from './components/StudentCard';
 import { alunos } from './data/alunos';
+import { useState } from 'react';
 import './App.css';
 
 function App() {
+  
   return (
     <div className="app-container">
       <Sidebar />
