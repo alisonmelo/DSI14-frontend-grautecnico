@@ -34,24 +34,53 @@ export const alunos = [
 ,
   // Crie o seu depois daqui...
   {
-    id: 3,
+    id: 8,
     nome: "Matheus Pontes",
     stack: "Backend Dev",
     bio: "O pior entre melhores",
-    foto: "blob:https://web.whatsapp.com/b2873a21-90e1-4df6-87a2-0ba959a8d343", // Foto fake bonita
-    github: "#",
-    linkedin: "#",
+    foto: "https://i.pinimg.com/webp85/736x/a3/75/07/a375071df93d7608ac89e06b7b438a7a.webp", // Foto fake bonita
+    github: "Pontesx",
+    linkedin: "MPontes",
     portfolio: "#"
   },
   // Crie o seu depois daqui...
   {
+    id: 3,
+    nome: "Thiago Santana",
+    stack: "back-end Dev",
+    bio: "futuro dev java",
+    foto: "https://i.pinimg.com/736x/1f/f0/51/1ff051473370806f5129936a3da8c298.jpg", // Foto fake bonita
+    github: "https://github.com/thiago2636",
+    linkedin: "#",
+    portfolio: "#"
+  },
+{
     id: 5,
     nome: "Robert(Aluno)",
     stack: "Full Stack / CyberCode",
     bio: "Estudando para ser o melhor do purple team",
-    foto: "https://i.pinimg.com/736x/93/88/a6/9388a6238562da0b556a3974b78ef77d.jpg", // Foto fake bonita
+    foto: "https://i.pinimg.com/1200x/be/c5/13/bec5137c140e063a0c0e05b24af0320b.jpg", // Foto fake bonita
     github: "github.com/robertatila",
     linkedin: "https://linkedin.com/in/robertatila",
     portfolio: "https://Robert.dev"
+  },
+  { id: 5,
+    nome: "Franky(Aluno))",
+    stack: "Não / sei",
+    bio: "Tentando aprender",
+    foto:"",
+    github: "",
+    linkedin: "",
+    portfolio: ""
+  },{
+    id: 6,
+    nome: "Evandro(Aluno)",
+    stack: "Full Stack / CyberCode",
+    bio: "Orientado ao aprendizado Futuro Desenvolvedor de Software",
+    foto: "https://bunny-wp-pullzone-hvtcydxmuk.b-cdn.net/wp-content/uploads/2024/01/Img-10.jpg", // Foto fake bonita
+    github: "github.com/evandrorsfilho22-cyber",
+    linkedin: "https://github.com/settings/profile",
+    portfolio: "https://github.com/settings/profile"
   }
+   
 ];
