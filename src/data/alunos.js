@@ -20,7 +20,6 @@ export const alunos = [
     github: "https://github.com/jeancarlos1019",
     linkedin: "#",
     portfolio: "https://github.com/jeancarlos1019"
-
   },
   {
     id: 4,
