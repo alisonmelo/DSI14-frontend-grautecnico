@@ -64,6 +64,14 @@ export const alunos = [
     github: "github.com/robertatila",
     linkedin: "https://linkedin.com/in/robertatila",
     portfolio: "https://Robert.dev"
+  },{ id: 5,
+    nome: "Franky(Aluno))",
+    stack: "Não / sei",
+    bio: "Tentando aprender",
+    foto:"",
+    github: "",
+    linkedin: "",
+    portfolio: ""
   },{
     id: 6,
     nome: "Evandro(Aluno)",
@@ -74,4 +82,5 @@ export const alunos = [
     linkedin: "https://github.com/settings/profile",
     portfolio: "https://github.com/settings/profile"
   }
+   
 ];
