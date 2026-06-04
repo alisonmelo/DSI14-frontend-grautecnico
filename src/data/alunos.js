@@ -20,6 +20,7 @@ export const alunos = [
     github: "https://github.com/jeancarlos1019",
     linkedin: "#",
     portfolio: "https://github.com/jeancarlos1019"
+    
   },
   {
     id: 4,
@@ -34,17 +35,27 @@ export const alunos = [
 ,
   // Crie o seu depois daqui...
   {
-    id: 3,
+    id: 8,
     nome: "Matheus Pontes",
     stack: "Backend Dev",
     bio: "O pior entre melhores",
-    foto: "blob:https://web.whatsapp.com/b2873a21-90e1-4df6-87a2-0ba959a8d343", // Foto fake bonita
+    foto: "htt", // Foto fake bonita
     github: "#",
     linkedin: "#",
     portfolio: "#"
   },
   // Crie o seu depois daqui...
   {
+    id: 3,
+    nome: "Thiago Santana",
+    stack: "back-end Dev",
+    bio: "futuro dev java",
+    foto: "https://i.pinimg.com/736x/1f/f0/51/1ff051473370806f5129936a3da8c298.jpg", // Foto fake bonita
+    github: "https://github.com/thiago2636",
+    linkedin: "#",
+    portfolio: "#"
+  },
+{
     id: 5,
     nome: "Robert(Aluno)",
     stack: "Full Stack / CyberCode",
