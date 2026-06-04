@@ -29,9 +29,9 @@ export const alunos = [
     nome: "Matheus Pontes",
     stack: "Backend Dev",
     bio: "O pior entre melhores",
-    foto: "blob:https://web.whatsapp.com/b2873a21-90e1-4df6-87a2-0ba959a8d343", // Foto fake bonita
-    github: "#",
-    linkedin: "#",
+    foto: "https://i.pinimg.com/webp85/736x/a3/75/07/a375071df93d7608ac89e06b7b438a7a.webp", // Foto fake bonita
+    github: "Pontesx",
+    linkedin: "MPontes",
     portfolio: "#"
   }
   // Crie o seu depois daqui...
