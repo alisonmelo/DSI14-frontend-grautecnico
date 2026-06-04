@@ -12,24 +12,57 @@ export const alunos = [
     portfolio: "https://alisonmelo.dev"
   },
   {
-    id: 2,
-    nome: "Aluno Herói",
+    id: 7,
+    nome: "Jean Carlos",
     stack: "Front-end Dev",
-    bio: "O único que veio na aula e vai virar sênior!",
-    foto: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=400", // Foto fake bonita
+    bio: "Não tem bio ainda!",
+    foto: "https://cdna.artstation.com/p/assets/images/images/047/133/434/large/haykel-mhadbi-finn-adventure-time-2.jpg?1646843144", // Foto fake bonita
+    github: "https://github.com/jeancarlos1019",
+    linkedin: "#",
+    portfolio: "https://github.com/jeancarlos1019"
+    
+  },
+  {
+    id: 4,
+    nome: "Dream Foox",
+    stack: "  Back-end Dev",
+    bio: "Programador Junior Do ilan maiskI ",
+    foto: "https://www.estadao.com.br/resizer/v2/URY27IBCVBFWDHQYVWPOW3WE7M.jpg?quality=80&auth=5ea63a5fc4568766a8b294ca562294ada9306a2faec80558b0e3156e8748367f&width=380", // Foto fake bonita
+    github: "https://github.com/settings/profile",
+    linkedin: "https://github.com/settings/profile",
+    portfolio: "https://github.com/settings/profile"
+  }
+,
+  // Crie o seu depois daqui...
+  {
+    id: 3,
+    nome: "Matheus Pontes",
+    stack: "Backend Dev",
+    bio: "O pior entre melhores",
+    foto: "htt", // Foto fake bonita
     github: "#",
     linkedin: "#",
     portfolio: "#"
-  }
+  },
   // Crie o seu depois daqui...
   {
     id: 3,
     nome: "Thiago Santana",
     stack: "back-end Dev",
     bio: "futuro dev java",
-    foto: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=400", // Foto fake bonita
-    github: "#",
+    foto: "https://i.pinimg.com/736x/1f/f0/51/1ff051473370806f5129936a3da8c298.jpg", // Foto fake bonita
+    github: "https://github.com/thiago2636",
     linkedin: "#",
     portfolio: "#"
+  },
+{
+    id: 5,
+    nome: "Robert(Aluno)",
+    stack: "Full Stack / CyberCode",
+    bio: "Estudando para ser o melhor do purple team",
+    foto: "https://i.pinimg.com/736x/93/88/a6/9388a6238562da0b556a3974b78ef77d.jpg", // Foto fake bonita
+    github: "github.com/robertatila",
+    linkedin: "https://linkedin.com/in/robertatila",
+    portfolio: "https://Robert.dev"
   }
 ];
