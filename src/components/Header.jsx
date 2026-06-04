@@ -1,4 +1,4 @@
-export function Header() {
+export function Header({setBusca}) {
   return (
     <header className="header-area" style={{ 
       display: 'flex', 
@@ -15,6 +15,7 @@ export function Header() {
         <input 
           type="text" 
           placeholder="Pesquisar..." 
+          onChange={(evento)=>setBusca(evento.target.value)}
           style={{ background: 'none', border: 'none', color: 'white', outline: 'none' }}
         />
       </div>

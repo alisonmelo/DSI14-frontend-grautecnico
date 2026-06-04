@@ -1,4 +1,9 @@
+import { useState } from "react";
+
 export function StudentCard({ aluno }) {
+
+const [likes, setLikes] = useState(0);
+
   return (
     <div className="card" style={{
       width: '320px',
@@ -50,6 +55,25 @@ export function StudentCard({ aluno }) {
             <a href={aluno.linkedin} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>💼</a>
             <a href={aluno.portfolio} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>🌐</a>
           </div>
+          {/* Botão do like! ai meu coração <3 */}
+          <button
+            onClick={()=>setLikes(likes+1)}
+            style={{
+              backgroundColor:'#f83e3e',
+              color:"white",
+              border:'1px solid #f43f5e',
+              padding:'8px 12px',
+              borderRadius:'6px',
+              fontWeight:'bold',
+              cursor:'point',
+              display:'flex',
+              alignItems:'center',
+              gap:'5px'
+            }}
+            >
+              💗{likes}
+          </button>
+
 
           <button style={{
             backgroundColor: '#38bdf8', color: '#020617', border: 'none',
